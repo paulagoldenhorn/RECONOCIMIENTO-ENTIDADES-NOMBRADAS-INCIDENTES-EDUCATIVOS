@@ -1,8 +1,6 @@
-# README
-
 # Proyecto de Procesamiento de Lenguaje Natural
 
-Trabajo Práctico Final de la materia Procesamiento de Lenguaje Natural - Universidad de Palermo.
+**Trabajo Práctico Final de la materia Procesamiento de Lenguaje Natural - Universidad de Palermo.**
 
 ## Integrantes
 
@@ -20,14 +18,14 @@ El objetivo del trabajo es entrenar y evaluar modelos de Reconocimiento de Entid
 
 ## Dataset
 
-- Se construyó un dataset sintético de ejemplos 570 anotados manualmente y aumentados con herramientas de IA. Se dividió en conjuntos de entrenamiento (80%), desarrollo (10%) y validación (10%).
+Se construyó un dataset sintético de ejemplos 570 anotados manualmente y aumentados con herramientas de IA. Se dividió en conjuntos de entrenamiento (80%), desarrollo (10%) y validación (10%).
 
 ## Modelado
 
-- Se entrenaron tres modelos para comparar dos enfoques: entrenamiento desde cero vs. aprendizaje por transferencia:
-    - **Fine-tuning spaCy (`es_core_news_lg`):** modelo neuronal de spaCy versión grande en español (con embeddings estáticos preentrenados).
-    - **Fine-tuning spaCy (`es_core_news_sm`):** modelo neuronal de spaCy versión pequeña en español (sin embeddings preentrenados).
-    - **Entrenamiento CRF**: modelo probabilístico de Campos Aleatorios Condicionales de scikit-learn.
+Se entrenaron tres modelos para comparar dos enfoques: entrenamiento desde cero vs. aprendizaje por transferencia:
+- **Fine-tuning spaCy (`es_core_news_lg`):** modelo neuronal de spaCy versión grande en español (con embeddings estáticos preentrenados).
+- **Fine-tuning spaCy (`es_core_news_sm`):** modelo neuronal de spaCy versión pequeña en español (sin embeddings preentrenados).
+- **Entrenamiento CRF**: modelo probabilístico de Campos Aleatorios Condicionales de scikit-learn.
 
 ## Resultados
 
@@ -41,11 +39,11 @@ El objetivo del trabajo es entrenar y evaluar modelos de Reconocimiento de Entid
 
 **Métricas por tipo de entidad**
 
-[metricas](https://github.com/user-attachments/assets/b2b718cf-ffa0-4382-9406-e12649e2928a)
+[INSERTAR IMAGEN]
 
 **Distribución de errores (falsos positivos y falsos negativos)**
 
-[errores](https://github.com/user-attachments/assets/2fbbca15-71d8-46af-97ef-5e280c66ecba)
+[INSERTAR IMAGEN]
 
 ## Estructura del repositorio
 
