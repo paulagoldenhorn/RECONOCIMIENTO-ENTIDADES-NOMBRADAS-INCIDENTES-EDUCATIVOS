@@ -51,6 +51,8 @@ Se entrenaron tres modelos para comparar dos enfoques: entrenamiento desde cero 
 ├── NOTEBOOK.ipynb                  # Notebook principal (pipeline del proyecto)
 ├── INFORME.pdf                     # Informe del proyecto
 ├── dataset_limpio.jsonl            # Dataset anotado
+├── comparacion_metricas.png        # Gráficos de comparación entre métricas
+├── distribucion_errores.png        # Gráficos de distribución de errores
 ├── config/                         # Archivos de configuración de spaCy
 └── data/                           # Datos en formato binario spaCy (.spacy)
 ```
