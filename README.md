@@ -50,9 +50,17 @@ Se entrenaron tres modelos para comparar dos enfoques: entrenamiento desde cero 
 ```
 ├── NOTEBOOK.ipynb                  # Notebook principal (pipeline del proyecto)
 ├── INFORME.pdf                     # Informe del proyecto
-├── dataset_limpio.jsonl            # Dataset anotado
-├── comparacion_metricas.png        # Gráficos de comparación entre métricas
-├── distribucion_errores.png        # Gráficos de distribución de errores
 ├── config/                         # Archivos de configuración de spaCy
-└── data/                           # Datos en formato binario spaCy (.spacy)
+├── data/                           # Dataset y datos en formato binario spaCy
+│   ├── dataset_limpio.jsonl        # Dataset anotado (entrada del notebook)
+│   └── train/dev/val.spacy         # Splits generados por el notebook
+├── output/                         # Salidas del notebook
+│   ├── model-best/                 # Mejor modelo spaCy (es_core_news_lg)
+│   ├── model-last/                 # Último checkpoint spaCy (es_core_news_lg)
+│   └── images/                     # Gráficos generados por el notebook
+│       ├── balance_clases.png          # Balance de clases del dataset
+│       ├── crf_max_iterations.png      # Búsqueda de max_iterations del CRF
+│       ├── comparacion_metricas.png    # Comparación de métricas entre modelos
+│       └── distribucion_errores.png    # Distribución de FP y FN por etiqueta
+└── output_small/                   # Modelos spaCy (es_core_news_sm): model-best/ y model-last/
 ```
