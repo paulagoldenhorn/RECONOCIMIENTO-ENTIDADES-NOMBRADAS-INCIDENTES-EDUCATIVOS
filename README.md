@@ -33,9 +33,9 @@ Se entrenaron tres modelos para comparar dos enfoques: entrenamiento desde cero 
 
 | Modelo | Precisión | Recall  | F1 |
 | --- | --- | --- | --- |
-| spaCy lg | 0.7365 | 0.7267 | 0.7315 |
-| CRF | 0.7603 | 0.7400 | 0.7500 |
-| spaCy sm | 0.7500 | 0.7400 | 0.7450 |
+| spaCy lg | 0.7267 | 0.7267 | 0.7267 |
+| CRF | 0.7534 | 0.7333 | 0.7432 |
+| spaCy sm | 0.7162 | 0.7067 | 0.7114 |
 
 **Métricas por tipo de entidad**
 
