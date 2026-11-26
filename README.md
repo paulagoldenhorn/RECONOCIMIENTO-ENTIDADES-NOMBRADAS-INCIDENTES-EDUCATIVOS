@@ -39,11 +39,11 @@ Se entrenaron tres modelos para comparar dos enfoques: entrenamiento desde cero 
 
 **Métricas por tipo de entidad**
 
-[INSERTAR IMAGEN]
+![Comparación de Precision, Recall y F1 por entidad y modelo](output/images/comparacion_metricas.png)
 
 **Distribución de errores (falsos positivos y falsos negativos)**
 
-[INSERTAR IMAGEN]
+![FP y FN por etiqueta para cada modelo](output/images/distribucion_errores.png)
 
 ## Estructura del repositorio
 

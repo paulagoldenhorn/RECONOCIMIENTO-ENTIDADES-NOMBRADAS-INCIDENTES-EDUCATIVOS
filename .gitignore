@@ -1,1 +1,3 @@
-/output
+/output/*
+!/output/images/
+/output_small
