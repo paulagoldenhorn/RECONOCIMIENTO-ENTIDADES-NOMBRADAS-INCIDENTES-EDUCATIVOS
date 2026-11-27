@@ -1,6 +1,6 @@
-# Proyecto de Procesamiento de Lenguaje Natural
+# Reconocimiento de Entidades Nombradas (NER) para la Gestión de Incidentes en Entornos Educativos
 
-**Trabajo Práctico Final de la materia Procesamiento de Lenguaje Natural - Universidad de Palermo.**
+**Trabajo Práctico Final de la materia Procesamiento de Lenguaje Natural.**
 
 ## Integrantes
 
