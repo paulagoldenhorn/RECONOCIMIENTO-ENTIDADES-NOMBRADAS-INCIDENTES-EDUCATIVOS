@@ -55,12 +55,12 @@ Se entrenaron tres modelos para comparar dos enfoques: entrenamiento desde cero 
 │   ├── dataset_limpio.jsonl        # Dataset anotado (entrada del notebook)
 │   └── train/dev/val.spacy         # Splits generados por el notebook
 ├── output/                         # Salidas del notebook
-│   ├── model-best/                 # Mejor modelo spaCy (es_core_news_lg)
-│   ├── model-last/                 # Último checkpoint spaCy (es_core_news_lg)
 │   └── images/                     # Gráficos generados por el notebook
 │       ├── balance_clases.png          # Balance de clases del dataset
 │       ├── crf_max_iterations.png      # Búsqueda de max_iterations del CRF
 │       ├── comparacion_metricas.png    # Comparación de métricas entre modelos
 │       └── distribucion_errores.png    # Distribución de FP y FN por etiqueta
-└── output_small/                   # Modelos spaCy (es_core_news_sm): model-best/ y model-last/
+│   ├── model-best/                 # Mejor modelo spaCy es_core_news_lg. Se genera al ejecutar el Notebook.
+│   └── model-last/                 # Último checkpoint spaCy es_core_news_lg. Se genera al ejecutar el Notebook.
+└── output_small/                   # model-best/ y model-last/ de spaCy es_core_news_sm. Se generan al ejecutar el Notebook. 
 ```
